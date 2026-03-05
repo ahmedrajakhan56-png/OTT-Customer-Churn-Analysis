@@ -1,36 +1,14 @@
-# OTT-Customer-Churn-Analysis
-
-![Python](https://img.shields.io/badge/Python-3.8-blue)
-![Pandas](https://img.shields.io/badge/Pandas-1.3.5-green)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-red)
-![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20Glue%20%7C%20Athena-orange)
-
-
-Customer churn analysis for OTT platform using Python, SQL, AWS Athena, and Power BI.
-
- OTT Customer Churn Analysis
-
-![Dashboard Preview](screenshots/01_executive_dashboard.png)
-
- Project Overview
-Customer churn analysis for OTT platform using Python, SQL, AWS Athena, and Power BI.
-
- Key Metrics
-- **Total Customers**: 5,000
-- **Churn Rate**: 32%
-- **Annual Revenue**: ₹8.2 Cr
-- **Revenue at Risk**: ₹2.8 Cr
-- **ML Model Accuracy**: 92%
-
- Business Impact
-- **Potential Savings**: ₹55.5 Lakhs
-- **ROI Expected**: 350%
-- **Churn Reduction**: 25%
-
- Tech Stack
-- Python (Data Cleaning)
-- SQL Server + AWS Athena
-- Power BI (Dashboard + ML)
-- Excel
-
+OTT Customer Churn Analysis - Complete Project
+<p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> </p><p align="center"> <img src="screenshots/01_executive_dashboard.png" alt="Executive Dashboard" width="800"/> <br> <em>Executive Dashboard - Real-time Churn Monitoring</em> </p>
+🎯 Project Overview
+<div align="center"> <table> <tr> <td align="center"> <img src="https://img.icons8.com/color/48/000000/customer-insight.png"/> <br> <b>5,000+</b> <br> Customers Analyzed </td> <td align="center"> <img src="https://img.icons8.com/color/48/000000/rupee.png"/> <br> <b>₹8.2 Cr</b> <br> Annual Revenue </td> <td align="center"> <img src="https://img.icons8.com/color/48/000000/machine-learning.png"/> <br> <b>92%</b> <br> ML Accuracy </td> <td align="center"> <img src="https://img.icons8.com/color/48/000000/save--v1.png"/> <br> <b>₹55 L</b> <br> Potential Savings </td> </tr> </table> </div>
+🚀 Business Impact
+<div align="center"> <table> <tr> <th>Metric</th> <th>Current</th> <th>Target</th> <th>Improvement</th> </tr> <tr> <td>📉 Churn Rate</td> <td>32%</td> <td>24%</td> <td><b style="color:green">↓ 25%</b></td> </tr> <tr> <td>💰 Annual Loss</td> <td>₹2.4 Cr</td> <td>₹1.8 Cr</td> <td><b style="color:green">₹60L Saved</b></td> </tr> <tr> <td>📈 Customer Retention</td> <td>3,400</td> <td>3,800</td> <td><b style="color:green">+400 Customers</b></td> </tr> <tr> <td>🎯 ROI</td> <td>-</td> <td>350%</td> <td><b style="color:green">3.5x Returns</b></td> </tr> </table> </div>
+🛠️ Technology Stack
+<div align="center"> <table> <tr> <td align="center" width="150"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60"/> <br><b>Python</b> <br><small>Data Cleaning</small> </td> <td align="center" width="150"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="60"/> <br><b>AWS Athena</b> <br><small>Cloud Analytics</small> </td> <td align="center" width="150"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="60"/> <br><b>SQL Server</b> <br><small>Database</small> </td> <td align="center" width="150"> <img src="https://img.icons8.com/color/48/000000/power-bi.png" width="60"/> <br><b>Power BI</b> <br><small>Dashboard & ML</small> </td> </tr> </table> </div>
+📊 Key Insights
+<div align="center"> <table> <tr> <td width="50%" align="center"> <h3>🔴 Critical Churn Drivers</h3> <img src="screenshots/03_key_influencers.png" width="400"/> <br> <b>Top 5 Factors:</b> <br> 1️⃣ last_login_days > 30 (85% churn) <br> 2️⃣ watch_hours < 5 (72% churn) <br> 3️⃣ Gift Card Users (60% churn) <br> 4️⃣ Basic Plan (45% churn) <br> 5️⃣ Africa Region (42% churn) </td> <td width="50%" align="center"> <h3>🔄 Customer Segments</h3> <img src="screenshots/04_clustering.png" width="400"/> <br> <b>4 Distinct Clusters:</b> <br> 🏆 High Value Active - 12% churn <br> ⚠️ At Risk - 35% churn <br> 👀 Low Engagement - 28% churn <br> ❌ Lost Causes - 68% churn </td> </tr> </table> </div>
+📈 Dashboard Gallery
+<div align="center"> <table> <tr> <td align="center"> <img src="screenshots/01_executive_dashboard.png" width="400"/> <br> <b>📊 Page 1: Executive Dashboard</b> </td> <td align="center"> <img src="screenshots/02_deep_dive_dashboard.png" width="400"/> <br> <b>🔍 Page 2: Deep Dive Analysis</b> </td> </tr> <tr> <td align="center"> <img src="screenshots/05_decomposition_tree.png" width="400"/> <br> <b>🌳 Root Cause Analysis</b> </td> <td align="center"> <img src="screenshots/06_anomaly_detection.png" width="400"/> <br> <b>⚠️ Anomaly Detection</b> </td> </tr> </table> </div>
+🎯 Top Recommendations
+<div align="center"> <table> <tr> <th>Campaign</th> <th>Target</th> <th>Customers</th> <th>Savings</th> <th>ROI</th> <th>Priority</th> </tr> <tr> <td><b>📧 Win-back</b></td> <td>last_login > 30 days</td> <td>780</td> <td>₹7.5L</td> <td><b style="color:green">400%</b></td> <td align="center">🔴 HIGH</td> </tr> <tr> <td><b>🎁 Gift Card Incentive</b></td> <td>Gift Card users</td> <td>850</td> <td>₹4.5L</td> <td><b style="color:green">429%</b></td> <td align="center">🔴 HIGH</td> </tr> <tr> <td><b>📱 Engagement</b></td> <td>watch_hours < 5</td> <td>1,200</td> <td>₹6.0L</td> <td><b style="color:orange">233%</b></td> <td align="center">🟡 MEDIUM</td> </tr> <tr> <td><b>⬆️ Upgrade</b></td> <td>Basic Plan</td> <td>1,500</td> <td>₹7.0L</td> <td><b style="color:blue">∞</b></td> <td align="center">🟢 LOW</td> </tr> </table> </div>
