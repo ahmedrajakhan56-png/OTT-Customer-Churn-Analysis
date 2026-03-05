@@ -1,4 +1,12 @@
 # OTT-Customer-Churn-Analysis
+
+![Python](https://img.shields.io/badge/Python-3.8-blue)
+![Pandas](https://img.shields.io/badge/Pandas-1.3.5-green)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-red)
+![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20Glue%20%7C%20Athena-orange)
+
+
 Customer churn analysis for OTT platform using Python, SQL, AWS Athena, and Power BI.
 
  OTT Customer Churn Analysis
